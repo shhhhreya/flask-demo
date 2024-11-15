@@ -6,7 +6,7 @@ app = Flask(__name__)  #so that Flask knows where to look for resources such as 
 
 @app.route('/')  
 def hello():
-    return "hello world" # can render html as well inside quotes
+    return "Hello World!" # can render html as well inside quotes
 
 if __name__ == "__main__":
     app.run(debug=True)
